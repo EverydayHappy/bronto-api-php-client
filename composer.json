@@ -1,10 +1,8 @@
 {
-  "name": "bronto/bronto-api-php-client",
-  "description": "Client Library for PHP",
+  "name": "edh/bronto-api-php-client",
+  "description": "Bronto Client Library for PHP",
   "keywords": ["bronto", "apiv4", "soap"],
   "homepage": "http://dev.bronto.com/api/v4",
-  "license": "Apache-2.0",
-  "version": "1.0.0",
   "require-dev": {
     "phpunit/phpunit": "4.5.*",
     "symfony/class-loader": "2.6.*",
@@ -18,6 +16,5 @@
   "scripts": {
     "test": "phpunit"
   },
-  "target-dir": "Symfony/Component/Console",
-  "minimum-stability": "stable"
+  "minimum-stability": "dev"
 }
