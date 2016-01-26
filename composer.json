@@ -1,6 +1,6 @@
 {
-  "name": "bronto/bronto-api-php-client",
-  "description": "Client Library for PHP",
+  "name": "edh/bronto-api-php-client",
+  "description": "Bronto Client Library for PHP",
   "keywords": ["bronto", "apiv4", "soap"],
   "homepage": "http://dev.bronto.com/api/v4",
   "license": "Apache-2.0",
