@@ -1,6 +1,6 @@
 <?php
 
-class Handler {
+class Bronto_Handler {
 
     /**
      * @var Bronto_Api
