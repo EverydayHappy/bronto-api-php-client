@@ -36,5 +36,21 @@ class Bronto_Handler {
         }
     }
 
+    /**
+     * @param string $email
+     * @param string $list
+     */
+    public function removeEmailFromList($email, $list)
+    {
+        $soapClient = $this->brontoAPI->getSoapClient();
+        $soapClient->removeFromList(array(
+            'contacts' => array(
+                'email' => $email
+            ),
+            'list' => array(
+                'id' => $list,
+            )
+        ));
+    }
 
 }
